@@ -16,7 +16,7 @@ else{
 }
 
 // Create a table in the db
-$sql = "CREATE TABLE `employees` ( `sno` INT(6) NOT NULL AUTO_INCREMENT , `name` VARCHAR(12) NOT NULL , `dest` VARCHAR(6) NOT NULL , PRIMARY KEY (`sno`))";
+$sql = "CREATE TABLE `trip` ( `sno` INT(6) NOT NULL AUTO_INCREMENT , `name` VARCHAR(12) NOT NULL , `dest` VARCHAR(6) NOT NULL , PRIMARY KEY (`sno`))";
 $result = mysqli_query($conn, $sql);
 
 // Check for the table creation success
